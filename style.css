@@ -48,6 +48,7 @@ body{
   display: inline-block;
   border-radius: 4px;
   background-color: #ccac80;
+  font-family: var(--font);
   border: none;
   color: #FFFFFF;
   text-align: center;

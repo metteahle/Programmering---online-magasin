@@ -1,0 +1,91 @@
+
+
+@import url("reset.css");
+
+/*google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&display=swap');
+/* font-family: 'Oswald', sans-serif; */
+
+/* Variabler: genbruges og gør designvalg enkle */
+:root {
+  /* farver */
+  --beige: #f5eadd;   /* baggrundsfarve */
+  --brown: #a08961;    /* navbar bagrrundsfarve */
+  --lightbeige: #ccac80;  /* navbaritems baggrundsfarve og buttons */
+  --darkbrown: #534639;  /* overskrifter */
+  --sort: #000000;
+  --hvid: #ffffff;
+
+  /* fonte */
+  --font: 'Oswald', sans-serif; /* brødtekst */
+}
+
+body{
+  background-color: var(--beige);
+}
+
+#headlogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+.submenu { display: none; }
+.menu>li:hover>.submenu { display: block;list-style-type: none;}
+
+.menu{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 40px;
+  margin-top: 30px;
+  font-family: var(--font);
+}
+
+/*Button abonner*/
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #ccac80;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*navigationsbar*/
+
+nav{
+  background-color: var(--brown);
+}

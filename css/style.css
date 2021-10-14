@@ -1,9 +1,8 @@
-
-
-@import url("reset.css");
-
 /*google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 /* font-family: 'Oswald', sans-serif; */
 
 /* Variabler: genbruges og gør designvalg enkle */
@@ -14,7 +13,7 @@
   --lightbeige: #ccac80;  /* navbaritems baggrundsfarve og buttons */
   --darkbrown: #534639;  /* overskrifter */
   --sort: #000000;
-  --hvid: #ffffff;
+  --hvid: #FFFFFF;
 
   /* fonte */
   --font: 'Oswald', sans-serif; /* brødtekst */
@@ -29,9 +28,12 @@ body{
   margin-left: auto;
   margin-right: auto;
   width: 200px;
+  margin-top: 10px;
 }
 
-.submenu { display: none; }
+.submenu { display: none;
+  font-size: 18px;
+}
 .menu>li:hover>.submenu { display: block;list-style-type: none;}
 
 .menu{
@@ -41,6 +43,8 @@ body{
   margin-right: 40px;
   margin-top: 30px;
   font-family: var(--font);
+  font-size: 22px;
+  color: var(--hvid);
 }
 
 /*Button abonner*/
@@ -52,7 +56,7 @@ body{
   border: none;
   color: #FFFFFF;
   text-align: center;
-  font-size: 18px;
+  font-size: 22px;
   padding: 5px;
   width: 100px;
   transition: all 0.5s;
@@ -89,4 +93,28 @@ body{
 
 nav{
   background-color: var(--brown);
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
+
+.navitem{
+  border-style: solid;
+}
+
+a:link {
+  color: var(--hvid);
+    text-decoration: none;
+}
+
+a:visited {
+  color: var(--hvid);
+}
+
+a:hover {
+  color: var(--darkbrown);
+}
+
+a:active {
+  color: var(--hvid) ;
+
+/*Det fortæller andre*/

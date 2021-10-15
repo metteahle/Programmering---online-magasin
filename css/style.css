@@ -236,8 +236,25 @@ fieldset{
   color: var(--darkbrown);
   float: left;
   margin-left: 50px;
+  margin-right: 50px;
 }
 
 legend{
   font-size: 26px;
+}
+
+/*Underside step-by-step*/
+
+#step{
+  text-align: center;
+  font-family: var(--font);
+  color: var(--darkbrown);
+  font-size: 30px;
+  margin-bottom: 1px;
+  font-weight: bold;
+}
+
+.icons{
+  float: left;
+  max-width: 100%;
 }

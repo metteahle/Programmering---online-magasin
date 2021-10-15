@@ -237,6 +237,8 @@ fieldset{
   float: left;
   margin-left: 50px;
   margin-right: 50px;
+  background-color: #FFFFFF;
+  margin:50px;
 }
 
 legend{
@@ -257,4 +259,5 @@ legend{
 .icons{
   float: left;
   max-width: 100%;
+  text-align: center;
 }

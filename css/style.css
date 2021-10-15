@@ -196,49 +196,10 @@ h2{
   font-weight: normal;
 }
 
-.button2{
-    display: inline-block;
-    border-radius: 4px;
-    background-color: #ccac80;
-    font-family: var(--font);
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 16px;
-    padding: 5px;
-    width: 100px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-    float: right;
-    margin-top: 15px;
-    margin-right: 5px;
-  }
-
-  .button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-
-  .button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-
-  .button:hover span {
-    padding-right: 25px;
-  }
-
-  .button:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
+#button2{
+  font-size: 16px;
+  margin-top: 10px;
+}
 
 /*Footer*/
 #line{
@@ -249,4 +210,24 @@ h2{
     margin-top: 100px;
     width: 93%;
     border-bottom: 4px solid #534639;
+}
+
+#button3{
+  font-size: 22px;
+  float: left;
+  margin-left: 50px;
+  width: 170px;
+  margin-top: -10px;
+}
+
+.social{
+  float: none;
+  margin-left: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 700px;
+}
+
+.flyttekasse{
+  float: right;
 }

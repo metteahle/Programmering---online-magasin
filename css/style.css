@@ -213,9 +213,8 @@ h2{
 }
 
 #button3{
-  font-size: 22px;
+  font-size: 16px;
   float: left;
-  margin-left: 50px;
   width: 170px;
   margin-top: -10px;
 }
@@ -230,4 +229,15 @@ h2{
 
 .flyttekasse{
   float: right;
+}
+
+fieldset{
+  font-family: var(--font);
+  color: var(--darkbrown);
+  float: left;
+  margin-left: 50px;
+}
+
+legend{
+  font-size: 26px;
 }

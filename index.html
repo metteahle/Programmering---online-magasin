@@ -2,13 +2,7 @@
 <html>
 <head>
 <title>Førstegangsflytter</title>
-<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 <link rel="stylesheet" href="css/style.css" />
-
-<!--
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
 
 <link rel="icon" type="image/x-icon" href="images/favicon.png"/>
 
@@ -110,7 +104,22 @@
       <h1>Nyheder</h1>
     </div>
 
-    <button class="button" id="button3"><span>Tilmeld dig her</span></button>
+    <form action="/action_page.php">
+    <fieldset>
+      <legend>Tilmeld dig vores nyhedsbrev</legend>
+      <label for="fname">Navn:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="lname">Efternavn:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="birthday">Fødselsdag:</label>
+      <input type="date" id="birthday" name="birthday"><br><br>
+      <button class="button" id="button3"><span>Tilmeld dig her</span></button>
+    </fieldset>
+  </form>
+
+
     <div class="social">
       <img src="images/instagram.png" alt="instagram">
       <img src="images/facebook.png" alt="facebook">

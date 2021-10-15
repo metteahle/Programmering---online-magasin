@@ -5,6 +5,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 /* font-family: 'Oswald', sans-serif; */
 
+
+/* responsivt designvalg
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}  -  dette er til billeder fra forsiden artikler så de ligger ovenpå hinanden*/
+
 /* Variabler: genbruges og gør designvalg enkle */
 :root {
   /* farver */
@@ -156,4 +164,89 @@ a:active {
   font-family: var(--font);
   color: var(--darkbrown);
   font-size: 30px;
+  margin-bottom: 1px;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+/*Billeder/artikler*/
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.column {
+  flex: 33.33%;
+  padding-top: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.artikel{
+  font-size: 16px;
+  font-family: var(--font);
+  font-weight: lighter;
+}
+
+h2{
+  font-size: 26px;
+  font-family: var(--font);
+  color: var(--darkbrown);
+  font-weight: normal;
+}
+
+.button2{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #ccac80;
+    font-family: var(--font);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 5px;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 25px;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+/*Footer*/
+#line{
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    width: 93%;
+    border-bottom: 4px solid #534639;
 }

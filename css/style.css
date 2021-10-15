@@ -40,6 +40,32 @@ body{
   margin-bottom: 20px;
 }
 
+
+/*navigationsbar*/
+
+nav{
+  background-color: var(--brown);
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+a:link {
+  color: var(--hvid);
+    text-decoration: none;
+}
+
+a:visited {
+  color: var(--hvid);
+}
+
+a:hover {
+  color: var(--darkbrown);
+}
+
+a:active {
+    color: var(--hvid);
+}
+
 .submenu { display: none;
   font-size: 18px;
 }
@@ -101,30 +127,6 @@ body{
   right: 0;
 }
 
-/*navigationsbar*/
-
-nav{
-  background-color: var(--brown);
-  padding-top: 1px;
-  padding-bottom: 1px;
-}
-
-a:link {
-  color: var(--hvid);
-    text-decoration: none;
-}
-
-a:visited {
-  color: var(--hvid);
-}
-
-a:hover {
-  color: var(--darkbrown);
-}
-
-a:active {
-    color: var(--hvid);
-}
 
 /*Det fortæller andre*/
 
@@ -231,14 +233,12 @@ h2{
   float: right;
 }
 
-fieldset{
+.indexfieldset{
   font-family: var(--font);
   color: var(--darkbrown);
   float: left;
-  margin-left: 50px;
-  margin-right: 50px;
-  background-color: #FFFFFF;
-  margin:50px;
+  margin-top: -50px;
+  width: 30%;
 }
 
 legend{
@@ -260,4 +260,15 @@ legend{
   float: left;
   max-width: 100%;
   text-align: center;
+}
+
+fieldset{
+  font-family: var(--font);
+  color: var(--darkbrown);
+  float: left;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #FFFFFF;
+  margin:50px;
+  width: 90%;
 }

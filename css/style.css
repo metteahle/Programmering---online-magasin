@@ -272,3 +272,21 @@ fieldset{
   margin:50px;
   width: 90%;
 }
+
+/*Underside økonomien bag*/
+
+.video{
+  margin-top: 100px;
+  text-align: center;
+}
+
+/*Underside opskrifter*/
+
+#backgroundimage{
+  margin-top: 20px;
+}
+
+#opskriftoverskrift{
+  font-weight: bold;¨
+  color: var(--darkbrown);
+}

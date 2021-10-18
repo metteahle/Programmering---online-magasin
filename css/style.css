@@ -335,6 +335,7 @@ fieldset{
     float: left;
     background: var(--lightbeige);
     width: 250px;
+    margin-top: 20px;
 }
 
 div.gallery {
@@ -346,6 +347,7 @@ div.gallery {
   font-weight: lighter;
   width: 25%;
   margin-left: 25px;
+  margin-top: 20px;
 }
 
 div.gallery img {

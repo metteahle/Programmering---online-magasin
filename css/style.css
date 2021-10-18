@@ -344,6 +344,8 @@ div.gallery {
   font-family: var(--font);
   font-size: 16px;
   font-weight: lighter;
+  width: 25%;
+  margin-left: 25px;
 }
 
 div.gallery img {

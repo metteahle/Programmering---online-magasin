@@ -235,6 +235,8 @@ h2{
 
 legend{
   font-size: 26px;
+  font-weight: normal;
+  color: var(--darkbrown);
 }
 
 /*Underside step-by-step*/
@@ -401,6 +403,11 @@ div.desc {
     width: 100%;
   }
 
+/* footer */
+  #line{
+      width: 80%;
+  }
+
   /* opskrifter.html*/
   .centered {
     font-size: 15px;
@@ -430,6 +437,36 @@ div.desc {
     font-size: 16px;
   }
 
+/* stepbystep.html */
+  .icons{
+    float: left;
+    max-width: 30%;
+  }
+
+  fieldset{
+    margin:50px;
+    width: 70%;
+  }
+
+/*Underside økonomien bag*/
+  .tekst{
+    font-family: var(--font);
+    color: var(--sort);
+    font-size: 24px;
+    font-weight: lighter;
+  }
+
+  .flex-container {
+      display:block;
+      justify-content: space-between;
+      align-items: center;
+      margin: 10px;
+  }
+
+.video{
+  width: 100%;
+  height: 100%;
+}
 
 }
 

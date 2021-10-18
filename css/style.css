@@ -221,14 +221,6 @@ h2{
   margin-top: -10px;
 }
 
-.social{
-  float: none;
-  margin-left: 600px;
-  display: flex;
-  justify-content: space-between;
-  margin-right: 700px;
-}
-
 .flyttekasse{
   float: right;
 }
@@ -275,9 +267,25 @@ fieldset{
 
 /*Underside økonomien bag*/
 
-.video{
-  margin-top: 100px;
-  text-align: center;
+.tekst{
+  font-family: var(--font);
+  color: var(--sort);
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+h1{
+  font-size: 60px;
+  font-family: var(--font);
+  color: var(--darkbrown);
+  font-weight: bold;
 }
 
 /*Underside opskrifter*/

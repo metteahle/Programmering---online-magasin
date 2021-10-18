@@ -380,7 +380,10 @@ div.desc {
   .menu>li:hover>.submenu { display: block;list-style-type: none;}
 
   .menu{
-    font-size: 12px;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
   }
 
   #headlogo{

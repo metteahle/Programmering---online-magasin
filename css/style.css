@@ -153,8 +153,8 @@ a:active {
 @keyframes fling-minislide {
   25%{opacity:1;}
   40%{opacity:0;}
-
 }
+
 .fling-minislide img:nth-child(4){animation-delay:0s;}
 .fling-minislide img:nth-child(3){animation-delay:8s;}
 .fling-minislide img:nth-child(2){animation-delay:16s;}
@@ -251,16 +251,17 @@ legend{
 .icons{
   float: left;
   max-width: 100%;
-  text-align: center;
+  margin: 30px;
 }
 
 fieldset{
   font-family: var(--font);
-  color: var(--darkbrown);
+  color: var(--sort);
   float: left;
   margin-left: 50px;
   margin-right: 50px;
   background-color: #FFFFFF;
+  font-weight: lighter;
   margin:50px;
   width: 90%;
 }
@@ -366,3 +367,70 @@ div.gallery img {
 div.desc {
   padding: 15px;
 }
+
+/* responsive regler */
+@media screen and (max-width: 667px) {
+
+/* navbar */
+  .submenu { display: none;
+    font-size: 10px;
+  }
+  .menu>li:hover>.submenu { display: block;list-style-type: none;}
+
+  .menu{
+    font-size: 12px;
+  }
+
+  #headlogo{
+    width: 50%;
+  }
+
+/* index.html */
+  .fling-minislide {
+    width:100%;
+    height: 100%;
+    padding-bottom: 200px;
+  }
+
+  h1{
+    font-size: 40px;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  /* opskrifter.html*/
+  .centered {
+    font-size: 15px;
+  }
+
+  .minut {
+    font-size: 10px;
+  }
+
+  .hævetid {
+    font-size: 10px;
+  }
+
+  .antal {
+    font-size: 10px;
+  }
+
+  #leftcolumn {
+      float: left;
+      background: var(--lightbeige);
+      width: 100%;
+      margin-top: 20px;
+  }
+
+  div.gallery {
+    width: 85%;
+    font-size: 16px;
+  }
+
+
+}
+
+/* @uri: https://www.w3schools.com/css/css3_mediaqueries.asp */

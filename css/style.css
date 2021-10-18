@@ -375,7 +375,7 @@ div.desc {
 
 /* navbar */
   .submenu { display: none;
-    font-size: 10px;
+    font-size: 18px;
   }
   .menu>li:hover>.submenu { display: block;list-style-type: none;}
 

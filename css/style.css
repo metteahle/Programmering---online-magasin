@@ -282,10 +282,75 @@ fieldset{
 
 /*Underside opskrifter*/
 
-#backgroundimage{
+#opskriftoverskrift{
+  font-weight: bold;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: var(--font);
   margin-top: 20px;
 }
 
-#opskriftoverskrift{
-  font-weight: bold;¨
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font);
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.minut {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font);
+  font-size: 22px;
+}
+
+.hævetid {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font);
+  font-size: 22px;
+}
+
+.antal {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font);
+  font-size: 22px;
+}
+
+#leftcolumn {
+    float: left;
+    background: var(--lightbeige);
+    width: 250px;
+}
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 180px;
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
 }

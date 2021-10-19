@@ -201,6 +201,7 @@ h2{
 #button2{
   font-size: 16px;
   margin-top: 10px;
+  font-weight: normal;
 }
 
 #button7{
@@ -221,16 +222,19 @@ h2{
 #button4{
   font-size: 16px;
   margin-top: 10px;
+  font-weight: normal;
 }
 
 #button5{
   font-size: 16px;
   margin-top: 10px;
+  font-weight: normal;
 }
 
 #button6{
   font-size: 16px;
   margin-top: 10px;
+  font-weight: normal;
 }
 
 /*Footer*/

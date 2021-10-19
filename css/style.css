@@ -239,6 +239,22 @@ legend{
   color: var(--darkbrown);
 }
 
+/*Underside opdater side*/
+.figur{
+  float: left;
+  margin-top: 30px;
+  margin-left: 30px
+}
+
+#opdate{
+  font-family: var(--font);
+  font-weight: normal;
+  float: right;
+  margin-top: 30px;
+  margin-right: 150px;
+}
+
+
 /*Underside step-by-step*/
 
 #step{

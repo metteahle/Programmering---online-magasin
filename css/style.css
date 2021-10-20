@@ -92,13 +92,13 @@ a:active {
   color: #FFFFFF;
   text-align: center;
   font-size: 22px;
-  padding: 5px;
+  padding:2px;
   width: 100px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
   float: right;
-  margin-top: 75px;
+  margin-top: 20px;
   margin-right: 5px;
 }
 
@@ -144,7 +144,7 @@ a:active {
 
 .fling-minislide img{
   position:absolute;
-  animation:fling-minislide 20s infinite;
+  animation:fling-minislide 50s infinite;
   opacity:0;
   width: 100%;
   height: auto;
@@ -155,10 +155,10 @@ a:active {
   40%{opacity:0;}
 }
 
-.fling-minislide img:nth-child(4){animation-delay:0s;}
-.fling-minislide img:nth-child(3){animation-delay:8s;}
-.fling-minislide img:nth-child(2){animation-delay:16s;}
-.fling-minislide img:nth-child(1){animation-delay:24s;}
+.fling-minislide img:nth-child(1){animation-delay:0s;}
+.fling-minislide img:nth-child(2){animation-delay:12s;}
+.fling-minislide img:nth-child(3){animation-delay:24s;}
+.fling-minislide img:nth-child(4){animation-delay:36s;}
 
 
 /*h1*/
@@ -198,25 +198,16 @@ h2{
   font-weight: normal;
 }
 
-#button2{
+#button1{
   font-size: 16px;
   margin-top: 10px;
   font-weight: normal;
 }
 
-#button7{
+#button2{
   font-size: 16px;
   margin-top: 10px;
-}
-
-#button8{
-  font-size: 16px;
-  margin-top: 10px;
-}
-
-#button9{
-  font-size: 16px;
-  margin-top: 10px;
+  font-weight: normal;
 }
 
 #button4{
@@ -226,12 +217,6 @@ h2{
 }
 
 #button5{
-  font-size: 16px;
-  margin-top: 10px;
-  font-weight: normal;
-}
-
-#button6{
   font-size: 16px;
   margin-top: 10px;
   font-weight: normal;
@@ -340,6 +325,8 @@ h1{
   color: var(--darkbrown);
   font-weight: bold;
 }
+
+
 
 /*Underside opskrifter*/
 

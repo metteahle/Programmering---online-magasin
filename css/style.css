@@ -33,7 +33,7 @@ body{
 
 #headlogo{
   display: block;
-  margin-left: auto;
+  margin-left: 42%;
   margin-right: auto;
   width: 200px;
   margin-top: 10px;
@@ -82,7 +82,7 @@ a:active {
   color: var(--hvid);
 }
 
-/*Button abonner*/
+/*Button abonnér*/
 .button {
   display: inline-block;
   border-radius: 4px;
@@ -144,7 +144,7 @@ a:active {
 
 .fling-minislide img{
   position:absolute;
-  animation:fling-minislide 50s infinite;
+  animation:fling-minislide 35s infinite;
   opacity:0;
   width: 100%;
   height: auto;
@@ -183,6 +183,10 @@ a:active {
   padding-top: 10px;
   padding-right: 50px;
   padding-left: 50px;
+}
+
+.image-container{
+  width: 100%;
 }
 
 .artikel{
